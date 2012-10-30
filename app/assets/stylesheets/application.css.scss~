@@ -21,7 +21,7 @@
   padding: 10px;
   border-bottom: 2px solid;
   font: small-caps 40px/40px "Times New Roman", serif;
-  color: #F3BF25;
+  color: #790000;
   text-align: center;
 
   img {
@@ -53,6 +53,25 @@
     width: 13em;
     background: #9FA59E;
 //141
+
+    form, div {
+      display: inline;
+    }
+
+    input {
+      font-size: small;
+    }
+
+    #cart {
+      font-size: smaller;
+      color:     white;
+
+      table {
+        border-top:    1px dotted #595;
+        border-bottom: 1px dotted #595;
+        margin-bottom: 10px;
+      }
+    }
 
     ul {
       padding: 0;
